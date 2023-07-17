@@ -66,6 +66,7 @@ button:hover{
 }
 
 #home  img {
+    max-width: 400px;
     margin-left: 200px;
     border: 2px solid green;
     border-radius: 50%;
@@ -119,5 +120,6 @@ button:hover{
 .conteudo2{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    grid-gap: 10px;
+    margin: 0 auto;
 }
