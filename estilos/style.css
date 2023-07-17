@@ -1,29 +1,25 @@
 @charset "UTF-8";
 
-
+/* configuraçoes gerais */
 
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-
 body{
-    background: #202020;
+    background-color: #000;
+    height: 100vh;
+
+}
+/* configuraçoes de cabeçario */
+
+header{
+    padding: 40px 4%;
 }
 
-
-nav{
+nav ul, li, a{
     display: flex;
-    justify-content: space-around;
-}
-nav a{
-    margin-top: 10px;
-    font-size: large;
-    font-weight: 2rem;
-    text-decoration: none;
-    color: white;
-    transition: .6s;
-}
-nav a:hover{
-    background-color: violet;
+    justify-content: space-between;
+    align-items: center;
 }
