@@ -10,10 +10,19 @@
     background: #202020;
     font-family: 'Poppins', sans-serif;
 }
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header h1{
+    padding-left: 10px;
+    color: #11d411;
+}
 
 header nav{
     display: flex;
     justify-content: flex-end;
+    margin-top: 5px;
 
 }
 header nav a {
@@ -48,17 +57,24 @@ header nav ul li{
 display: flex;
 justify-content: center;
 align-items: center;
-margin: 30px 0px;
+padding-right: 20px;
+}
+.btn-contato2{
+    display: none;
+    justify-content: center;
+    align-items: center;
+   margin-top: 50px;
+    padding-left: 20px;
 }
 
 button{
     color: white;
     font-size: 1.5rem;
-    color: rgb(17,212, 17);
+    color: #11d411;
     cursor: pointer;
     border-radius: 15px;
-    width: 150px;
     transition: .5s;
+    width: 150px;
 }
 button:hover{
     color: white;
@@ -66,11 +82,11 @@ button:hover{
 }
 
 #home  img {
-    max-width: 400px;
+    max-width: 370px;
     margin-left: 200px;
-    border: 2px solid green;
+    border: 1px solid #11d411;
     border-radius: 50%;
-    animation: anima 2s alternate infinite;
+    animation: anima 2s linear infinite alternate;
 }
 
 #home .conteudo p {
@@ -96,10 +112,10 @@ button:hover{
 }
 @keyframes anima {
    0%{
-    transform: translate(0deg);
+    transform: translate(0px);
    }
    100%{
-    transform: translateY(30px);
+    transform: translateY(20px);
 }
 }
 
