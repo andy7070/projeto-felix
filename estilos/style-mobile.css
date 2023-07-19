@@ -19,6 +19,8 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        gap: 100px;
+
         
     }
     header h1{
@@ -37,22 +39,19 @@
        margin-top: 50px;
         padding-left: 20px;
     }
+    #home img {
+        position: relative;
+        width: 300px;
+        margin-left: 200px;
+    }
+  
     
-    
-#home  img {
-    max-width: 300px;
-    border: 1px solid #11d411;
-    margin-top: 50px;
-    margin-right: 180px;
-    border-radius: 50%;
-    animation: anima 2s linear infinite alternate;
-}
 
 #home .conteudo p {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: center;
     max-width: 668px;
     padding: 0px 10px;
@@ -66,13 +65,15 @@
     margin-bottom: 20px;
 }
 #home .conteudo h2::after{
+    display: none;
     content: '';
     margin: auto;
-    display: block;
     width: 490px;
     height: 4px;
     background-color: green;
 }
+
+
 .conteudo2{
     display: grid;
 grid-template-columns: repeat(2, 1fr);
@@ -84,6 +85,12 @@ margin: 0px;
 .teste img{
     width: 200px;
     padding-left: 10px;
+    
+}
+button{
+   position: relative;
+   left: 150px;
+   
 }
 
 }
