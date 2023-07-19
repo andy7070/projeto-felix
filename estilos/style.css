@@ -12,7 +12,9 @@
 }
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    height: 100px;
+    padding-top: 20px;
     
 }
 header h1{
@@ -46,20 +48,25 @@ header nav ul li a:hover {
    transform: scale(1.5);
 }
 
-.texto img{
-    width: 200px;
-    opacity: 30px;
+.testando{
+    height: 200px;
+    text-align: center;
+ 
+    
+  
    
 }
 
+
 #home{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-end;
     min-height: 100vh;
-    gap: 100px;
+    gap: 400px;
+    margin-bottom: 200px;
     
 }
 .btn-contato{
@@ -84,7 +91,7 @@ button{
     border-radius: 15px;
     transition: .5s;
     width: 150px;
-    margin-bottom: 120px;
+    
 }
 button:hover{
     color: white;
@@ -93,11 +100,8 @@ button:hover{
 
 
 #home  img {
-    position: absolute;
-    max-width: 500px;
-    bottom: 0;
     max-height: 100vh;
-    right: 100px;
+    right: 150px;
     border-radius: 0px 0px 30px 30px;
 }
 
@@ -113,8 +117,6 @@ button:hover{
     text-align: center;
     color: rgb(17, 212, 17);
     text-align: center;
-    
-    left: 200px;
 }
 #home .conteudo h2::after{
     content: '';
@@ -146,6 +148,29 @@ button:hover{
     grid-gap: 10px;
     margin: 0 auto;
 }
-#estilos{
-    background: #202020;
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   
+
 }
+.conainer > div{
+    margin: 0px;
+}
+
+.img{
+    width: 320px;
+    margin: 0px;
+}
+.iphone {
+   width: 650px;
+   padding-top: 50px;
+   padding-left: 20px;
+
+
+}
+
+#assistencia h2 {
+    align-items: center;
+}
+
