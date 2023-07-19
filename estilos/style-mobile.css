@@ -63,14 +63,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1rem;
+    font-size: 1.0rem;
     text-align: center;
     max-width: 668px;
     padding: 0px 10px;
     color: #fff;
 }
 #home .conteudo h2{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     max-width: 668px;
     color: rgb(17, 212, 17);
     text-align: center;
@@ -102,8 +102,23 @@ margin: 0px;
 button{
    position: relative;
    margin: 0 auto;
+   font-size: 1.2rem;
    
    
 }
+#estilos h2{
+    font-size: 1.2rem;
+}
 
+}
+.container{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+}
+.container img{
+    width: 200px;
+    padding: 0px 15px;
+}
+#assistencia h2{
+    font-size: 1.2rem;
 }
