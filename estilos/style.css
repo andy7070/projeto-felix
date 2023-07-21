@@ -156,15 +156,77 @@ button:hover{
 }
 
 
-.iphone {
-   width: 650px;
-   padding-top: 50px;
-   padding-left: 20px;
+.slider{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 0 !important;
+    overflow: hidden;
+}
 
+.slider-content {
+    width: 400%;
+    height: auto;
+    display: flex;
+}
+
+.slider-content input{
+    display: none;
+}
+
+.slide-box{
+    width: 25%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    transition: .5s;
+}
+
+.nav-auto{
+    position: absolute;
+    width: 100%;
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+ .nav-auto div{
+    border: 1px solid #11d411;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .5s;
 
 }
 
-#assistencia h2 {
-    align-items: center;
-    font-size: 4rem;
+.manual-btn:hover{
+    background-color: #11d411;
+}
+
+
+:not(:last-child){
+    margin-right: 20px;
+}
+.manual-btn:hover{
+    background-color: #11d411;
+}
+
+
+#radio1:checked  ~  .nav-auto .auto-btn1{
+    background-color: #11d411;
+}
+#radio2:checked ~ .nav-auto .auto-btn2{
+    background-color: #11d411;
+}
+#radio3:checked ~ .nav-auto .auto-btn3{
+    background-color: #11d411;
+}
+#radio1:checked  ~  .primeiro{
+    margin-left: 0%;
+}
+#radio2:checked  ~  .primeiro{
+    margin-left: -25%;
+}
+#radio3:checked  ~  .primeiro{
+    margin-left: -50%;
 }

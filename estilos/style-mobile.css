@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 
-@media screen and (max-width: 668px) {
+@media screen and (max-width: 600px) {
 
 
 
@@ -23,6 +23,9 @@
     }
     .testando{
         display: none;
+    }
+    nav{
+        overflow: hidden;
     }
     
     header h1{
@@ -91,6 +94,7 @@
 grid-template-columns: repeat(2, 1fr);
 gap: 2px 2px;
 margin: 0px;
+overflow: hidden;
    
     
 }
@@ -121,4 +125,17 @@ button{
 }
 #assistencia h2{
     font-size: 1.2rem;
+}
+
+.nav-manual, .nav-auto{
+    position: absolute;
+    width: 100%;
+    margin-top: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.slide-box img {
+    margin-top: 40px;
+ width: 50%;
 }
