@@ -202,6 +202,7 @@ button:hover{
     border-radius: 10px;
     cursor: pointer;
     transition: .5s;
+    background: transparent;
 }
 
 .manual-btn:not(:last-child){
@@ -209,7 +210,7 @@ button:hover{
 }
 
 .manual-btn:hover{
-    background: #11d411;
+    background-color: #11d411;
 }
 
 #radio1:checked ~ .first{
@@ -224,6 +225,38 @@ button:hover{
 #radio4:checked ~ .first{
     margin-left: -75%;
 }
-#radio5:checked ~ .first{
-    margin-left: -100%;
+
+.navigation-auto div {
+    border: 2px solid #20a6ff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+    
+}
+.navigation-auto {
+    position: absolute;
+    width: 800px;
+    margin-top: 375px;
+   display: flex;
+    justify-content: center;
+    background: transparent;
+    
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+  background-color: #11d411;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+  background-color: #11d411;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+  background-color: #11d411;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4{
+  background-color: #11d411;
 }
