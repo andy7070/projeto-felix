@@ -292,6 +292,8 @@ ion-icon{
     
 }
 
+
+
 .zap{
     color: rgb(3, 99, 3);
 }
@@ -302,6 +304,7 @@ ion-icon{
 .email{
     color: #20a6ff;
 }
+
 
 footer{
     height: 150px;
@@ -323,4 +326,12 @@ footer a:hover{
 
 .rodape{
     font-size: 1.5rem;
+}
+
+.git{
+    color: #D9073F;
+}
+
+.andy{
+    color: #11d411;
 }
