@@ -13,16 +13,23 @@
 header{
     display: flex;
     justify-content: space-around;
-    height: 100px;
+    align-items: center;
+    height: 200px;
     padding-top: 20px;
     
+    
+}
+
+.icone{
+    font-size: 1.5rem;
+    padding: 2px;
+    color: white;
 }
 header h1{
     padding-left: 10px;
     color: #11d411;
     
 }
-
 
 header nav a {
     display: inline-block;
@@ -62,9 +69,9 @@ header nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 700px;
     flex-wrap: wrap;
     align-items: flex-end;
-    min-height: 100vh;
     gap: 400px;
     margin-bottom: 200px;
     
@@ -141,6 +148,13 @@ button:hover{
 }
 .teste img{
     width: 400px;
+    border: 20px solid white;
+    margin: 22px 22px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.teste img:hover{
+    transform: scale(1.1);
 }
 .conteudo2{
     display: grid;
