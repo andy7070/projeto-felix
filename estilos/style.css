@@ -160,18 +160,6 @@ button:hover{
    border: 5px solid #11d411;
    border-radius: 10px 15px 10px 15px;
 }
-.conteudo2{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
-    margin: 0 auto;
-}
-.container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-   
-
-}
 
 
 /*slider */
