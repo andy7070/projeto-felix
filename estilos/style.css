@@ -119,6 +119,8 @@ button:hover{
     max-width: 700px;
     padding: 0px 30px;
     color: #fff;
+    margin-bottom: 20px;
+
 }
 #home .conteudo h2{
     font-size: 3.5rem;
@@ -160,7 +162,12 @@ button:hover{
    border: 5px solid #11d411;
    border-radius: 10px 15px 10px 15px;
 }
-
+.conteudo2{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
 
 /*slider */
 
