@@ -154,6 +154,7 @@ button{
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     padding: 40px 0;
+    align-items: center;
 }
 
 ion-icon{
@@ -204,6 +205,9 @@ ion-icon{
     height: 400px;
     
 
+}
+footer {
+    height: 70px;
 }
 
 }
