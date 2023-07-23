@@ -155,6 +155,7 @@ button:hover{
 }
 .teste img:hover{
     transform: scale(1.1);
+    border: 10px solid #11d411;
 }
 .conteudo2{
     display: grid;
@@ -277,6 +278,7 @@ button:hover{
 }
 #final {
     height: 100px;
+    
 }
 .contatos {
     display: grid;

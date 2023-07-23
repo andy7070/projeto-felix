@@ -1,20 +1,26 @@
 @charset "UTF-8";
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 668px) {
 
 
-
+    
     header nav a:hover{
         color: green;
+    }
+    body{
+        max-width: 668px;
+        margin: 0 auto;
+
     }
 
  
     header{
-        display: inline-block;
-        justify-content: space-around;
+        display: flex;
+        justify-content: space-between;
         align-items: center;
-        height: 100px;
+        height: 250px;
+        overflow: hidden;
 
         
     }
@@ -45,17 +51,16 @@
         padding-left: 20px;
     }
     #home img {
-         text-align: center;
-        margin: 0 auto;
-        width: 300px;
+        margin:auto;
+       width: 200px;
+        position: absolute;
+        margin-top: 70px;
         
     }
     #home{
-        margin: 0px auto;
-        padding: 0px  auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        display: block;
+        margin: auto;
+       
        
          
     }
@@ -87,10 +92,13 @@
     height: 4px;
     background-color: green;
 }
+#estilos{
+    overflow: hidden;
+}
 
 
 .conteudo2{
-    display: grid;
+display: grid;
 grid-template-columns: repeat(2, 1fr);
 gap: 2px 2px;
 margin: 0px;
@@ -100,13 +108,20 @@ overflow: hidden;
 }
 .teste img{
     width: 200px;
-    padding-left: 10px;
+    margin: 15px 15px;
+    border: 5px solid white;
+   
     
 }
+.teste:hover{
+    color: #11d411;
+}
 button{
-   position: relative;
-   margin: 0 auto;
+   position: absolute;
+   margin:auto;
    font-size: 1.2rem;
+   margin-top: 350px;
+   left: 155px;
    
    
 }
@@ -114,16 +129,82 @@ button{
     font-size: 1.2rem;
 }
 
-}
+
 .container{
     grid-template-columns: repeat(2, 1fr);
-    gap: 100px;
+    
+
 }
 .container img{
     width: 200px;
     padding: 0px 15px;
+    
 }
+
 #assistencia h2{
     font-size: 1.2rem;
+}
+.slider h2{
+    font-size: 1.2rem;
+}
+
+
+.contatos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 40px 0;
+}
+
+ion-icon{
+    font-size: 1.5rem;
+}
+
+
+.contatos a {
+    color: #11d411;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 0.90rem;
+   
+}
+.contatos a:hover{
+    color: white;
+    
+}
+
+.navigation-auto {
+    position: absolute;
+    width: 400px;
+    margin-top: 190px;
+   display: flex;
+    justify-content: center;
+    background: transparent;
+    
+}
+.manual-navigation {
+    position: absolute;
+    width: 400px;
+    margin-top: -210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+.slide img {
+    width: 400px;
+}
+.slider{
+    margin: 50PX auto;
+    width: 400px;
+    overflow: hidden;
+    height: 400px;
+    
+
+}
+
 }
 
