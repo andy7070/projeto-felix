@@ -12,10 +12,11 @@
 }
 header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    height: 200px;
-    padding-top: 20px;
+    height: 400px;
+    padding-bottom: 250px;
+    padding-left: 20px;
     
     
 }
@@ -24,6 +25,10 @@ header{
     font-size: 1.5rem;
     padding: 2px;
     color: white;
+    
+}
+.logo{
+    padding-top: 100px;
 }
 header h1{
     padding-left: 10px;
@@ -55,14 +60,7 @@ header nav ul li a:hover {
    transform: scale(1.5);
 }
 
-.testando{
-    height: 200px;
-    text-align: center;
- 
-    
-  
-   
-}
+
 
 
 #home{
@@ -105,13 +103,16 @@ button:hover{
     background: rgb(17, 212, 17);
 }
 
-
-#home  img {
-    max-height: 100vh;
-    right: 150px;
-    border-radius: 0px 0px 30px 30px;
+.btn-contato2{
+    display: none;
 }
-
+#home img {
+    border-radius: 0px 0px 30px 30px;
+    bottom: 30px;
+}
+#home .conteudo{
+    margin-top: 100px;
+}
 #home .conteudo p {
     font-size: 1.5rem;
     text-align: center;
@@ -148,14 +149,16 @@ button:hover{
 }
 .teste img{
     width: 400px;
-    border: 20px solid white;
+    border: 5px solid white;
     margin: 22px 22px;
     border-radius: 10px;
     cursor: pointer;
+    transition: .8s;
 }
 .teste img:hover{
     transform: scale(1.1);
-    border: 10px solid #11d411;
+   border: 5px solid #11d411;
+   border-radius: 10px 15px 10px 15px;
 }
 .conteudo2{
     display: grid;
