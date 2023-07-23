@@ -24,6 +24,9 @@
         
         
     }
+    .cabeçario{
+        padding-top: 10px;
+    }
     
     header nav a{
         font-size: 0.90rem;
