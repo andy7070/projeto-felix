@@ -169,8 +169,8 @@ ion-icon{
 
 .navigation-auto {
     position: absolute;
-    width: 400px;
-    margin-top: 190px;
+    width: 300px;
+    margin-top: 140px;
    display: flex;
     justify-content: center;
     background: transparent;
@@ -178,19 +178,19 @@ ion-icon{
 }
 .manual-navigation {
     position: absolute;
-    width: 400px;
-    margin-top: -210px;
+    width: 300px;
+    margin-top: -260px;
     display: flex;
     justify-content: center;
     align-items: center;
     background: transparent;
 }
 .slide img {
-    width: 400px;
+    width: 300px;
 }
 .slider{
     margin: 50PX auto;
-    width: 400px;
+    width: 300px;
     overflow: hidden;
     height: 400px;
     
