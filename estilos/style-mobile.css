@@ -25,7 +25,7 @@
         
     }
     .cabeçario{
-        padding-top: 10px;
+        padding-top: 100px;
     }
     
     header nav a{
@@ -58,6 +58,8 @@
     .absoluto{
         display: none;
     }
+
+
 
    
    #home{
