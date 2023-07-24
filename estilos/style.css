@@ -61,7 +61,33 @@ header nav ul li a:hover {
 }
 
 
+.absoluto{
+    background: transparent;
 
+}
+#contato-fixo{
+    display: flex;
+    justify-content: flex-end;
+    justify-items: right;
+    padding-right: 90px;
+    
+}
+
+.absoluto img{
+    width: 70px;
+    position: fixed;
+    transition: .9s;
+    
+  
+    
+    
+    
+}
+.absoluto img:hover{
+    transform: scale(1.2);
+    opacity: 1;
+
+}
 
 #home{
     display: flex;
@@ -150,7 +176,7 @@ button:hover{
 
 }
 .teste img{
-    width: 400px;
+    width: 300px;
     border: 5px solid white;
     margin: 22px 22px;
     border-radius: 10px;
